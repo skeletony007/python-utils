@@ -4,6 +4,8 @@ This utility provides a simple way to add backup details to file and directory p
 
 This project was inspired by [arkenfox/user.js](https://github.com/arkenfox/user.js), which provides a hardened Firefox configuration. It uses a similar naming convention to store backups of configuration files.
 
+Tested on Microsoft Windows 10 Version 1909.
+
 ## How it Works
 
 The utility is implemented using Python and a Windows batch script. The Python script adds the backup details to file and directory paths, while the batch script allows you to run the Python script by dragging and dropping files onto it.
